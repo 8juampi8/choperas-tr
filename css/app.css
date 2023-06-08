@@ -1,5 +1,19 @@
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: "Prompt", sans-serif;
+}
+
+.index-bg {
+  background-image: url("../imagenes/pexels-rdne-stock-project-6173987.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.choperas-bg {
+  background-image: url("../imagenes/IMG-20221018-WA0131 (7).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=app.css.map */
