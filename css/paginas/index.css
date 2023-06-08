@@ -5,4 +5,63 @@
   background-size: cover;
 }
 
+main {
+  height: 100vh;
+}
+main h1 {
+  color: white;
+  font-size: 130px;
+}
+main h1 b {
+  text-shadow: rgb(48, 7, 19) 1px 0 10px;
+}
+main a {
+  text-decoration: none;
+  cursor: default;
+}
+main a h5 {
+  color: white;
+  text-shadow: rgb(48, 7, 19) 1px 0 10px;
+  font-size: 30px;
+  transition: all 0.3s ease;
+  cursor: default;
+}
+main a h5:hover {
+  color: rgb(228, 153, 91);
+  text-shadow: rgb(255, 255, 255) 1px 0 10px;
+  transition: all 0.3s ease;
+}
+main img {
+  width: 200px;
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+  main h1 {
+    color: white;
+    font-size: 55px;
+    text-align: center;
+  }
+  main h1 b {
+    text-shadow: rgb(48, 7, 19) 1px 0 10px;
+  }
+  main a {
+    text-decoration: none;
+    cursor: default;
+  }
+  main a h5 {
+    color: white;
+    text-shadow: rgb(48, 7, 19) 1px 0 10px;
+    font-size: 25px;
+    transition: all 0.3s ease;
+    cursor: default;
+    text-align: center;
+    padding: 0 10px;
+  }
+  main a h5:hover {
+    color: rgb(228, 153, 91);
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+    transition: all 0.3s ease;
+  }
+}
+
 /*# sourceMappingURL=index.css.map */

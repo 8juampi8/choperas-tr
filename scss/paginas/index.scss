@@ -4,3 +4,64 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+main{
+    height: 100vh;
+    h1{
+        color: white;
+        font-size: 130px;
+        b{
+            text-shadow: rgb(48, 7, 19) 1px 0 10px;
+        }
+    }
+    a{
+        text-decoration: none;
+        cursor: default;
+        h5{
+            color: white;
+            text-shadow: rgb(48, 7, 19) 1px 0 10px;
+            font-size: 30px;
+            transition: all 0.3s ease;
+            cursor: default;
+            &:hover{
+                color: rgb(228, 153, 91);
+                text-shadow: rgba(255, 255, 255, 10) 1px 0 10px;
+                transition: all 0.3s ease;
+            }
+        }
+    }
+    img{
+        width: 200px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 576px){
+    main{
+        h1{
+            color: white;
+            font-size: 55px;
+            text-align: center;
+            b{
+                text-shadow: rgb(48, 7, 19) 1px 0 10px;
+            } 
+        }
+        a{
+            text-decoration: none;
+            cursor: default;
+            h5{
+                color: white;
+                text-shadow: rgb(48, 7, 19) 1px 0 10px;
+                font-size: 25px;
+                transition: all 0.3s ease;
+                cursor: default;
+                text-align: center;
+                padding: 0 10px;
+                &:hover{
+                    color: rgb(228, 153, 91);
+                    text-shadow: rgba(255, 255, 255, 10) 1px 0 10px;
+                    transition: all 0.3s ease;
+                }
+            }
+        }
+    }
+}
