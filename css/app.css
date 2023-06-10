@@ -179,8 +179,16 @@ footer {
   background-color: rgb(30, 30, 30);
   margin-top: 100px;
 }
-footer img {
-  width: 10%;
+footer a {
+  width: 200px;
+}
+footer a img {
+  width: 100%;
+  transition: all 0.5s ease;
+}
+footer a img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
 }
 footer div a {
   text-decoration: none;
@@ -196,30 +204,17 @@ footer div a:hover {
 
 @media (min-width: 0px) and (max-width: 576px) {
   footer {
-    background-color: rgb(30, 30, 30);
-    margin-top: 100px;
-  }
-  footer img {
-    width: 40%;
-    padding: 0;
-  }
-  footer p {
-    font-size: 12px;
-  }
-  footer div p {
-    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
     text-align: center;
   }
-  footer div a {
-    text-decoration: none;
-    color: rgb(255, 174, 0);
-    transition: all 1s ease;
-    padding: 10px;
+  footer p {
+    margin-bottom: 40px;
   }
-  footer div a:hover {
+  footer div a {
+    color: orange;
     text-decoration: underline;
-    color: rgb(255, 255, 255);
-    transition: all 1s ease;
   }
 }
 
