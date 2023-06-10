@@ -72,6 +72,106 @@ main img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: white;
+}
+
+main {
+  height: auto;
+  margin-top: 200px;
+}
+main div h1 {
+  font-size: 80px;
+  margin-bottom: 100px;
+}
+main div h3 {
+  text-align: start;
+  transition: all 0.5s ease;
+}
+main div .card {
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(150, 146, 146, 0.5);
+  -moz-box-shadow: 0px 0px 5px 5px rgba(150, 146, 146, 0.5);
+  box-shadow: 0px 0px 5px 5px rgba(150, 146, 146, 0.5);
+  background-color: rgba(150, 146, 146, 0.5);
+  transition: all 0.5s ease;
+}
+main div .card .card-img-top {
+  filter: brightness(40%);
+  transition: all 0.5s ease;
+}
+main div .card:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+main div .card:hover .card-img-top {
+  filter: brightness(100%);
+}
+main div .card-sa:hover {
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(240, 226, 103, 0.5);
+  -moz-box-shadow: 0px 0px 5px 5px rgba(240, 226, 103, 0.5);
+  box-shadow: 0px 0px 5px 5px rgba(240, 226, 103, 0.5);
+  background-color: rgb(240, 226, 103);
+  transition: all 0.5s ease;
+}
+main div .card-fh:hover {
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(231, 155, 14, 0.5);
+  -moz-box-shadow: 0px 0px 5px 5px rgba(231, 155, 14, 0.5);
+  box-shadow: 0px 0px 5px 5px rgba(231, 155, 14, 0.5);
+  background-color: rgb(231, 155, 14);
+  transition: all 0.5s ease;
+}
+main div .card-fh:hover h3 {
+  color: white;
+}
+main div .card-sc:hover {
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(141, 33, 14, 0.5);
+  -moz-box-shadow: 0px 0px 5px 5px rgba(141, 33, 14, 0.5);
+  box-shadow: 0px 0px 5px 5px rgba(141, 33, 14, 0.5);
+  background-color: rgb(85, 22, 11);
+  transition: all 0.5s ease;
+}
+main div .card-sc:hover h3 {
+  color: white;
+}
+main div .card-pt:hover {
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(3, 3, 3, 0.5);
+  -moz-box-shadow: 0px 0px 5px 5px rgba(3, 3, 3, 0.5);
+  box-shadow: 0px 0px 5px 5px rgba(3, 3, 3, 0.5);
+  background-color: rgb(3, 3, 3);
+  transition: all 0.5s ease;
+}
+main div .card-pt:hover h3 {
+  color: white;
+}
+main div .card-si:hover {
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(6, 136, 28, 0.5);
+  -moz-box-shadow: 0px 0px 5px 5px rgba(6, 136, 28, 0.5);
+  box-shadow: 0px 0px 5px 5px rgba(6, 136, 28, 0.5);
+  background-color: rgb(6, 136, 28);
+  transition: all 0.5s ease;
+}
+main div .card-si:hover h3 {
+  color: white;
+}
+main div .card-ai:hover {
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(2, 56, 11, 0.5);
+  -moz-box-shadow: 0px 0px 5px 5px rgba(2, 56, 11, 0.5);
+  box-shadow: 0px 0px 5px 5px rgba(2, 56, 11, 0.5);
+  background-color: rgb(2, 56, 11);
+  transition: all 0.5s ease;
+}
+main div .card-ai:hover h3 {
+  color: white;
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+  main h1 {
+    color: white;
+    text-align: center;
+  }
+  main h1 b {
+    text-shadow: rgb(48, 7, 19) 1px 0 10px;
+    font-size: 60px;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
